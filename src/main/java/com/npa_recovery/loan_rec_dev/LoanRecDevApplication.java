@@ -7,8 +7,9 @@ import java.util.TimeZone;
 
 @SpringBootApplication
 public class LoanRecDevApplication {
-	TimeZone.setDefault(TimeZone.getTimeZone("UTC"));
+	
 	public static void main(String[] args) {
+		TimeZone.setDefault(TimeZone.getTimeZone("UTC"));
 		SpringApplication.run(LoanRecDevApplication.class, args);
 	}
 
